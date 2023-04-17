@@ -26,6 +26,7 @@ def contact(request):
 
 
 def shop(request):
+
     return render(request, 'shop.html')
 
 
