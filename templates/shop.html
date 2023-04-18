@@ -1,11 +1,8 @@
-{% extends "base.html" %}
-{% load static%}
+{% extends "base.html"%}
+{% load static %}
 
 
-
-<!DOCTYPE html>
-<html lang="en">
-
+{% block content %}
     <!-- Modal -->
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -482,7 +479,7 @@
                                                 <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_02.png' %}" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="{% 'img/brand_03.png' %}" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_03.png' %}" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
                                                 <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_04.png' %}" alt="Brand Logo"></a>
@@ -495,7 +492,7 @@
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="{% 'img/brand_01.png' %}" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_01.png' %}" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
                                                 <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_02.png' %}" alt="Brand Logo"></a>
@@ -517,13 +514,13 @@
                                                 <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_01.png' %}" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="{% static 'assets/img/brand_02.png %}" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_02.png' %}" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="{% static 'assets/img/brand_03.png %}" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_03.png' %}" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="{% static 'assets/img/brand_04.png %}" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="{% static 'img/brand_04.png' %}" alt="Brand Logo"></a>
                                             </div>
                                         </div>
                                     </div>

@@ -1,5 +1,15 @@
-{% extends "base.html" %}
-{% load static%}
+{% extends "base.html"%}
+{% load static %}
+{% block sidebar %}
+<li><a href="{% url 'index' %}">Home</a></li>
+<li><a class="active"  href="{% url 'about' %}">About Us</a></li>
+<li><a href="{% url 'contact' %}">Contact</a></li>
+<li><a href="{% url 'base' %}">Главная </a></li>
+<li><a href="{% url 'shop' %}">ШОП</a></li>
+<li><a href="{% url 'shop-single' %}">ШОП СИНГЛ</a></li>
+{% endblock %}
+
+{% load static %}
 
 
 {% block content %}
